@@ -1,20 +1,20 @@
 class TokioConsoleWeb < Formula
   desc "A web console for tokio"
-  version "0.1.1-alpha.2"
+  version "0.1.1-beta.1"
   on_macos do
     on_arm do
-      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-alpha.2/tokio-console-web-aarch64-apple-darwin.tar.gz"
-      sha256 "865b33131090a6543039e3485aa41439d8615379ec6438c450ce66791c57f35f"
+      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-beta.1/tokio-console-web-aarch64-apple-darwin.tar.gz"
+      sha256 "eb412ed6c504b81fc2b2d86f71cc47a127914b3e0803eeca6d4db300c4322365"
     end
     on_intel do
-      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-alpha.2/tokio-console-web-x86_64-apple-darwin.tar.gz"
-      sha256 "67060ae0d115d82e90382a8ee0c127b1600a4acb435da26b85e09ef253e6c77a"
+      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-beta.1/tokio-console-web-x86_64-apple-darwin.tar.gz"
+      sha256 "2220a182a65422e1b1f95a0c4c50bb161bd6f9c5279e68bf4459b3ea4712be04"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-alpha.2/tokio-console-web-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8118a3e30b9c7e36efb27e22a21d482d8a8c3b9bba20e47aa0be181fe964bb7a"
+      url "https://github.com/hi-rustin/tokio-console-web/releases/download/0.1.1-beta.1/tokio-console-web-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "916aaf02936b18dc5eb5575731e8cafa41456539e2514fa4513774ac27cba7be"
     end
   end
   license "MIT"
